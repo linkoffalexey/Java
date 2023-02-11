@@ -1,9 +1,8 @@
-package ru.example.lesson03;
+package ru.example.lesson03.HomeWork;
 
-public class HomeTask {
+public class HomeTask1 {
     public static void main(String[] args) {
-        int[][][] arr = new int[][][]{{{1, 2}, {5, 10}}, {{-1, 80}, {3, 4}, {7, -5}}};
-        System.out.println(arr[0][0][0]);
+
         int[] a = new int[]{1, 10, 20, -10, 18};
         int[] b = new int[]{-1, -10, -20, -10, -18};
         System.out.println(getMaxMassive(b));
