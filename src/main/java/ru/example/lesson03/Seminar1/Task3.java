@@ -12,6 +12,7 @@ public class Task3 {
             for (int j = 0; j < strSmall.length(); j++) {
                 if (strBig.charAt(i) == strSmall.charAt(j)) {
                     isFound = true;
+                    break;
                 }
             }
             if (!isFound) {
