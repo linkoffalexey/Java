@@ -1,10 +1,6 @@
 package ru.example.lesson04;
 
-public class HomeTask2 {
-    public static void main(String[] args) {
 
-    }
-}
 
 class Person {
     private String name;
@@ -19,5 +15,6 @@ class Person {
         this.age=age;
     }
 
+    class Sun {}
 
 }
