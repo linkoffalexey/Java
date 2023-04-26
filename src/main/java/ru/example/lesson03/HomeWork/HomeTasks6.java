@@ -43,6 +43,7 @@ public class HomeTasks6 {
             i++;
         }
         Arrays.sort(a);
+
         return a;
     }
 }
