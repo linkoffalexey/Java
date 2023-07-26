@@ -1,8 +1,8 @@
 package ru.example.lesson5.task1.instruments;
 
-import ru.example.lesson5.task1.Instruments;
+import ru.example.lesson5.task1.Instrument;
 
-public class Trumped extends Instrument implements Instruments {
+public class Trumped implements Instrument {
     int sizeTube;
 
     public Trumped(int sizeTube) {

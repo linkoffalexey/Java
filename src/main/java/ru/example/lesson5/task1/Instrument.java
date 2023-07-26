@@ -1,5 +1,5 @@
 package ru.example.lesson5.task1;
 
-public interface Instruments {
+public interface Instrument {
     void play();
 }
