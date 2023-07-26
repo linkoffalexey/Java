@@ -8,9 +8,9 @@ public class Robot {
         RIGHT
     }
 
-    Direction direction;
-    int x;
-    int y;
+    private Direction direction;
+    private int x;
+    private int y;
 
     public Robot(int x, int y, Direction direction) {
         this.x = x;
