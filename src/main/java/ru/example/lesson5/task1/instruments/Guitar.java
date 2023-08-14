@@ -13,6 +13,8 @@ public class Guitar implements Instrument {
 
     @Override
     public void play() {
+        Trumped tt = new Trumped(10);
+        tt.sizeTube=20;
         System.out.println("Играет гитара c количеством струн " + this.quantityStrings);
 
     }

@@ -19,5 +19,6 @@ public class Main {
         Instrument[] instruments = new Instrument[]{new Drum("8а"), new Guitar(7), new Trumped(10), new Drum("10")};
         playInstruments(instruments);
         playInstrumentsOne(new Trumped(10));
+
     }
 }
